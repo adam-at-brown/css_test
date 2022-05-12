@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> TEST HTML PAGE </title>
+      <meta charset="UTF-8">
+      <meta name="description" content="HTML5 tags with base styles">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="base.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <h1>Base Styles Tags</h1>
+         <nav>
+            <a href="./test.html">Example 1</a>
+            <a href="./example_2.html">Example 2</a>
+         </nav>
+      </header>
+      <main>
+         <section>
+            <br>
+            <p>This page only has styling applied to at the HTML tag level; no classes, id's nor inline styling are applied to the elements. Just plain markup and the base CSS file.</p>
+            <p>Using semantic HTML and the base CSS sites will have a head start on styling that is within the parameters of the Brown Style Guide.</p>
+         </section>
+         <aside>
+            <h2>Contents</h2>
+            <br>
+            <ul>
+               <li><a href="#text">Text</a></li>
+               <li><a href="#media">Media</a></li>
+               <li><a href="#form">Forms & Elements</a></li>
+               <li><a href="#table">Tables & Elements</a></li>
+               <li><a href="#layout">Layout & Blocks</a></li>
+            </ul>
+         </aside>
+         <section id="text">
+            <h2>Text Elements:</h2>
+            <br>
+            <h3>&lt;p&gt;</h3>
+            <br>
+            <p>powerhouse paragraph tag</>
+            <hr />
+            <h3>&lt;a&gt;</h3>
+            <br>
+            <a href="https://google.com">a link</a>
+            <p>href set to an insecure url (http insetad of https)</p>
+            <br>
+            <a href="http://google.com">a link</a>
+            <p><small>this is a security check, if no secure alternative can be used, override with 'style="outline: 0;"'</small></p>
+            <hr />
+            <h3>&lt;abbr&gt;</h3>
+            <br>
+            <abbr title="Cascading Style Sheets">CSS</abbr>
+            <hr />
+            <h3>&lt;address&gt;</h3>
+            <br>
+            <address>
+               <a href="/">a link</a>
+               <p>123 Angel Street, Providence, RI 02999</p>
+            </address>
+            <hr />
+            <h3>&lt;b&gt;</h3>
+            <br>
+            <b>bold b</b>
+            <hr />
+            <h3>&lt;blockquote&gt;</h3>
+            <br>
+            <blockquote>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</blockquote>
+            <hr />
+            <h3>&lt;code&gt;</h3>
+            <br>
+            <code>const UI = fn(state)</code>
+            <hr />
+            <h3>&lt;detail&gt; & &lt;summary&gt;</h3>
+            <br>
+            <details>
+               <summary>Details</summary>
+               Something small enough to escape casual notice.
+            </details>
+            <hr />
+            <h3>&lt;em&gt;</h3>
+            <br>
+            <em>em emphizes text, good for screen readers</em>
+            <hr />
+            <h3>&lt;figcaption&gt;</h3>
+            <br>
+            <figcaption>caption, probably for an image</figcaption>
+            <hr />
+            <h3>&lt;h1&gt; through &lt;h6&gt;</h3>
+            <br>
+            <h1>H1</h1>
+            <h2>H2</h2>
+            <h3>H3</h3>
+            <h4>H4</h4>
+            <h5>H5</h5>
+            <h6>H6</h6>
+            <hr />
+            <h3>&lt;del&gt;</h3>
+            <br>
+            <del>deleted text</del>
+            <hr />
+            <h3>&lt;ins&gt;</h3>
+            <br>
+            <ins>inserted text</ins>
+            <hr />
+            <h3>&lt;i&gt;</h3>
+            <br>
+            <i>i italisizes text</i>
+            <hr />
+            <h3>&lt;kbd&gt;</h3>
+            <br>
+            <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd>
+            <hr />
+            <h3>&lt;li&gt; in &lt;ul&gt;</h3>
+            <br>
+            <ul>
+               <li>one</li>
+               <li>two</li>
+               <li>three</li>
+            </ul>
+            <hr />
+            <h3>&lt;li&gt; in &lt;ol&gt;</h3>
+            <br>
+            <ol>
+               <li>one</li>
+               <li>two</li>
+               <li>three</li>
+            </ol>
+            <hr />
+            <h3>&lt;mark&gt;</h3>
+            <br>
+            <mark>marked text</mark>
+            <hr />
+            <h3>&lt;pre&gt;</h3>
+            <br>
+            <pre>
+    {
+      title: "JSON is cool"
+    }</pre>
+            <hr />
+            <h3>&lt;q&gt;</h3>
+            <br>
+            <q>q is for quote text</q>
+            <hr />
+            <h3>&lt;s&gt;</h3>
+            <br>
+            <s>strikethrough text</s>
+            <hr />
+            <h3>&lt;samp&gt;</h3>
+            <br>
+            <samp>sample text</samp>
+            <hr />
+            <h3>&lt;small&gt;</h3>
+            <br>
+            <small>small text</small>
+            <hr />
+            <h3>&lt;span&gt;</h3>
+            <br>
+            <span>span text</span>
+            <hr />
+            <h3>&lt;strong&gt;</h3>
+            <br>
+            <strong>strong text</strong>
+            <hr />
+            <h3>&lt;sub&gt;</h3>
+            <br>
+            <p>Almost every developer's favorite molecule is C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as "caffeine."</p>
+            <hr />
+            <h3>&lt;sup&gt;</h3>
+            <br>
+            <p><var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p>
+            <hr />
+            <h3>&lt;time&gt;</h3>
+            <br>
+            <time datetime="2021-07-07">July 7</time>
+            <hr />
+            <h3>&lt;u&gt;</h3>
+            <br>
+            <u>underlined text</u>
+            <hr />
+            <br>
+         </section>
+         <section id="media">
+            <h2>Media:</h2>
+            <br>
+            <h3>&lt;img&gt;</h3>
+            <br>
+            <img src="https://www.vets4pets.com/siteassets/species/cat/kitten/tiny-kitten-in-sunlight.jpg?w=585&scale=down" alt="little ginger kitten" />
+            <br>
+            <p>Missing the alt attribute:</p>
+            <img src="https://www.vets4pets.com/siteassets/species/cat/kitten/tiny-kitten-in-sunlight.jpg?w=585&scale=down" />
+            <br>
+            <p><small>This is an acessibility check. An "alt" attribute is required, informative text or empty "" for decoritive images.</small></p>
+            <hr />
+            <br>
+            <br>
+         </section>
+         <section id="form">
+            <h2>Forms & Elements:</h2>
+            <br>
+            <form>
+               <fieldset>
+                  <legend>Inputs as descendents of labels (form legend)</legend>
+                  <label>
+                  Text input
+                  <input type="text" value="default value">
+                  </label>
+                  <label>
+                  Email input
+                  <input type="email" placeholder="placeholder@email.com">
+                  </label>
+                  <label>
+                  Search input
+                  <input type="search">
+                  </label>
+                  <label>
+                  Tel input
+                  <input type="tel">
+                  </label>
+                  <label>
+                  URL input
+                  <input type="url" placeholder="http://">
+                  </label>
+                  <label>
+                  Password input
+                  <input type="password" value="password">
+                  </label>
+                  <label>
+                  File input
+                  <input type="file">
+                  </label>
+                  <label>
+                  <input type="radio" name="rad"> Radio input
+                  </label>
+                  <label>
+                  <input type="checkbox"> Checkbox input
+                  </label>
+                  <label>
+                     Select field
+                     <select>
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                     </select>
+                  </label>
+                  <label>
+                  Textarea
+                  <textarea cols="30" rows="5">Textarea text</textarea>
+                  </label>
+                  <label for="b">range:</label>
+                  <input type="range" id="b" name="b" value="50" /> +
+                  <label for="a">number:</label>
+                  <input type="number" id="a" name="a" value="10" /> =
+                  <label for="result">output:</label>
+                  <output name="result" for="a b">60</output>
+                  <label for="meter">meter:</label>
+                  <meter id="meter"
+                     min="0" max="100"
+                     low="33" high="66" optimum="80"
+                     value="50">
+                  at 50/100
+                  </meter>
+                  <label for="progress">progress:</label>
+                  <progress id="progress" max="100" value="70"> 70% </progress>
+               </fieldset>
+               <fieldset>
+                  <legend>Clickable inputs and buttons</legend>
+                  <input type="image" src="http://placekitten.com/90/24" alt="Image (input)">
+                  <input type="reset" value="Reset (input)">
+                  <input type="button" value="Button (input)">
+                  <input type="submit" value="Submit (input)">
+                  <button type="reset">Reset (button)</button>
+                  <button type="button">Button (button)</button>
+                  <button type="submit">Submit (button)</button>
+               </fieldset>
+               <fieldset id="boxsize">
+                  <legend>box-sizing (inputs wrapped in a div)</legend>
+                  <div><input type="text" value="text"></div>
+                  <div><input type="email" value="email"></div>
+                  <div><input type="search" value="search"></div>
+                  <div><input type="url" value="http://example.com"></div>
+                  <div><input type="password" value="password"></div>
+                  <div><input type="color" value="#000000"></div>
+                  <div><input type="number" value="5"></div>
+                  <div><input type="range" value="10"></div>
+                  <div><input type="date" value="1970-01-01"></div>
+                  <div><input type="month" value="1970-01"></div>
+                  <div><input type="week" value="1970-W01"></div>
+                  <div><input type="time" value="18:23"></div>
+                  <div><input type="datetime" value="1970-01-01T00:00:00Z"></div>
+                  <div><input type="datetime-local" value="1970-01-01T00:00"></div>
+                  <div><input type="radio"></div>
+                  <div><input type="checkbox"></div>
+                  <div>
+                     <select>
+                        <option>Option 01</option>
+                        <option>Option 02</option>
+                     </select>
+                  </div>
+                  <div><textarea cols="30" rows="5">Textarea text</textarea></div>
+                  <div><input type="image" src="http://placekitten.com/90/24" alt="Image (input)"></div>
+                  <div><input type="reset" value="Reset (input)"></div>
+                  <div><input type="button" value="Button (input)"></div>
+                  <div><input type="submit" value="Submit (input)"></div>
+                  <div><button type="reset">Reset (button)</button></div>
+                  <div><button type="button">Button (button)</button></div>
+                  <div><button type="submit">Submit (button)</button></div>
+               </fieldset>
+            </form>
+            <br>
+            <hr />
+         </section>
+         <section id="table">
+            <h2>Tables & Elements:</h2>
+            <br>
+            <h3>&lt;table&gt;, &lt;thead&gt;, &lt;tr&gt;, &lt;th&gt, &lt;tfoot&gt; & &lt;caption&gt;</h3>
+            <br>
+            <table>
+               <caption>caption for this table.</caption>
+               <thead>
+                  <tr>
+                     <th>Numbers</th>
+                     <th>Letters</th>
+                     <th>Colors</th>
+                  </tr>
+               </thead>
+               <tfoot>
+                  <tr>
+                     <td>123</td>
+                     <td>ABC</td>
+                     <td>RGB</td>
+                  </tr>
+               </tfoot>
+               <tbody>
+                  <tr>
+                     <td>1</td>
+                     <td>A</td>
+                     <td>Red</td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td>B</td>
+                     <td>Green</td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td>C</td>
+                     <td>Blue</td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr />
+            <br>
+         </section>
+         <section id="layout">
+            <h2>Layout & Blocks:</h2>
+            <br>
+            <h3>&lt;a&gt;</h3>
+            <br>
+            <a href="/">a link</a>
+            <hr />
+         </section>
+         <section>
+            <h2>Unstyled HTML Tags</h2>
+            <br>
+            <ul>
+               <li><b>&lt;var&gt;</b></li>
+               <li><b>&lt;wbr&gt;</b></li>
+               <li><b>&lt;ruby&gt;</b></li>
+               <li><b>&lt;rp&gt;</b></li>
+               <li><b>&lt;rt&gt;</b></li>
+               <li><b>&lt;data&gt;</b></li>
+               <li><b>&lt;cite&gt;</b></li>
+               <li><b>&lt;bdi&gt;</b></li>
+               <li><b>&lt;bdo&gt;</b></li>
+               <li><b>&lt;colgroup&gt;</b></li>
+               <li><b>&lt;col&gt;</b></li>
+               <li><b>&lt;canvas&gt;</b></li>
+               <li><b>&lt;object&gt;</b></li>
+               <li><b>&lt;embed&gt;</b></li>
+               <li><b>&lt;iframe&gt;</b></li>
+               <li><b>&lt;map&gt;</b></li>
+               <li><b>&lt;source&gt;</b></li>
+               <li><b>&lt;track&gt;</b></li>
+               <li><b>&lt;param&gt;</b></li>
+               <li><b>&lt;audio&gt;</b></li>
+               <li><b>&lt;portal&gt;</b></li>
+            </ul>
+         </section>
+      </main>
+      <footer>
+         <p>©Brown University 2021 - in the footer</p>
+      </footer>
+   </body>
